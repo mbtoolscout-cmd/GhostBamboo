@@ -1,0 +1,17 @@
+title: BambooDeals
+description: เว็บรีวิว/เปรียบเทียบสินค้าภาษาไทย (ฐานสำหรับ Affiliate + ดิจิทัล)
+# ตั้งค่าให้ถูกต้อง:
+url: https://YOUR-USERNAME.github.io
+baseurl: /REPO-NAME  # ถ้าใช้รูปแบบ YOUR-USERNAME.github.io ให้ตั้งค่าว่าง: ""
+
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# layout เริ่มต้น
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
